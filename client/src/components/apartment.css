@@ -1,0 +1,35 @@
+.apartmentImg {
+  height: 30%;
+  width: 30%;
+}
+.rightSide {
+  width: 60%;
+}
+.underPictures {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+.ContactTheLandlord {
+  display: flex;
+  justify-content: space-around;
+}
+.checkboxs {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+.rightBox {
+  display: flex;
+  flex-direction: column;
+}
+.leftBox {
+  display: flex;
+  flex-direction: column;
+}
+.opinion {
+  margin-top: 5%;
+}
+.ContactTheLandlord {
+  margin-top: 5%;
+}

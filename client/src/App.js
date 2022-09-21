@@ -1,10 +1,15 @@
-import "./App.css"
+
+import "./App.css";
+import AllApartments from "./components/AllApartments";
 import SearchBar from "./SearchBar"
 
 function App() {
   return (
     <div className="App">
-      <SearchBar></SearchBar>
+      <AllApartments></AllApartments>
+            <SearchBar></SearchBar>
+
+
     </div>
   )
 }
