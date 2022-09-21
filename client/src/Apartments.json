@@ -11,7 +11,336 @@
         "url": "https://www.aveliving.com/AVE/media/Property_Images/Malvern/hero/malv-apt-living-(1)-hero.jpg?ext=.jpg"
       }
     ],
-    "adress": "david ben gurion 44, dimona",
+    "adress": "Sderot Anasi 44, Dimona",
+    "price": 5000,
+    "floor": 2,
+    "rooms": 4,
+    "size": 90,
+    "properties": {
+      "elevator": true,
+      "parking": true,
+      "bars": true,
+      "storage": true,
+      "airConditioner": true,
+      "porch": true,
+      "renovated": true
+    },
+    "opinions": [
+      {
+        "user": {
+          "name": "ruby",
+          "profileImage": {
+            "url": "efr"
+          }
+        },
+        "payed": 4000,
+        "date": "15.1.95",
+        "opinion": "this is my opinion"
+      }
+    ],
+    "ownerInfo": {
+      "name": "sagi",
+      "number": "0528889996",
+      "email": "sagi@gmail.com"
+    }
+  },
+  {
+    "image": [
+      {
+        "url": "https://www.aveliving.com/AVE/media/Property_Images/Malvern/hero/malv-apt-living-(1)-hero.jpg?ext=.jpg"
+      },
+      { "url": "https://pics.yad2.co.il/Pics/2021/04/20210422124920607-s.jpg" },
+      {
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSRmyUsaf497673NorPhrUhXC_u1ymgi0GObJgaZ5qXVV90Cx82xoFEtytnab4-LccJSg&usqp=CAU"
+      }
+    ],
+    "adress": "Sderot Idal Alon 35, Dimona",
+    "price": 2700000,
+    "floor": 2,
+    "romms": 6,
+    "size": 120,
+    "properties": {
+      "elevator": true,
+      "parking": false,
+      "bars": true,
+      "storage": true,
+      "airConditioner": true,
+      "porch": false,
+      "renovated": true
+    },
+    "opinions": [
+      {
+        "user": {
+          "name": "Rani",
+          "profileImage": { "url": "" }
+        },
+        "payed": 0,
+        "date": "",
+        "opinion": ""
+      }
+    ],
+    "ownerInfo": { "name": "", "number": "", "email": "" }
+  },
+  {
+    "image": [
+      {
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ921BHr8vWdyUAdiLCqIJQHBjr-Yn_OsG2HnlO0_l0MgBlVBJBZJJY8TIhflmCiqHWm-0&usqp=CAU"
+      },
+      { "url": "" }
+    ],
+    "adress": "Sderot Ertzel 12, Dimona",
+    "price": 0,
+    "floor": 0,
+    "romms": 0,
+    "size": 0,
+    "properties": {
+      "elevator": true,
+      "parking": true,
+      "bars": true,
+      "storage": true,
+      "airConditioner": true,
+      "porch": false,
+      "renovated": true
+    },
+    "opinions": [
+      {
+        "user": {
+          "name": "",
+          "profileImage": { "url": "" }
+        },
+        "payed": 0,
+        "date": "",
+        "opinion": ""
+      }
+    ],
+    "ownerInfo": { "name": "", "number": "", "email": "" }
+  },
+  {
+    "image": [
+      {
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQan7Ds_FaTOn_dRzvKfyjBmo_29oDBcNDu_cHN6qEvTUxrzlg3tbNKx63ufDoQEsJOwvg&usqp=CAU"
+      },
+      {
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcLNxojKRLNXIZh6eqzs9i5lSeXjNOosY1PO329z4-H9OgRwMr89f8xzEJ5yvpwfpRcN0&usqp=CAU"
+      }
+    ],
+    "adress": "Sderot Golda meir 3, Dimona",
+    "price": 5000,
+    "floor": 2,
+    "rooms": 4,
+    "size": 90,
+    "properties": {
+      "elevator": true,
+      "parking": true,
+      "bars": true,
+      "storage": false,
+      "airConditioner": false,
+      "porch": true,
+      "renovated": true
+    },
+    "opinions": [
+      {
+        "user": {
+          "name": "ruby",
+          "profileImage": {
+            "url": "efr"
+          }
+        },
+        "payed": 4000,
+        "date": "15.1.95",
+        "opinion": "this is my opinion"
+      }
+    ],
+    "ownerInfo": {
+      "name": "sagi",
+      "number": "0528889996",
+      "email": "sagi@gmail.com"
+    }
+  },
+  {
+    "image": [
+      {
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWzUtfsmq6t3Dv96SmmT2RFmWWgEFnanPlDWCqL2iWh1rsR2c7bJR68it7Ym4hiU46HAo&usqp=CAU"
+      },
+      {
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkQjXLUZfuJuWxFP7czo8KCeKmSddowC8X7GaBqJXMou6PuMq44kC4jg82lY-Y7VOA38s&usqp=CAU"
+      }
+    ],
+    "adress": "Dereh David Ben Gurion 9, Dimona",
+    "price": 0,
+    "floor": 0,
+    "romms": 0,
+    "size": 0,
+    "properties": {
+      "elevator": true,
+      "parking": false,
+      "bars": true,
+      "storage": true,
+      "airConditioner": true,
+      "porch": false,
+      "renovated": false
+    },
+    "opinions": [
+      {
+        "user": {
+          "name": "",
+          "profileImage": { "url": "" }
+        },
+        "payed": 0,
+        "date": "",
+        "opinion": ""
+      }
+    ],
+    "ownerInfo": { "name": "", "number": "", "email": "" }
+  },
+  {
+    "image": [
+      {
+        "url": "https://uploads.homeless.co.il/sale/201803/nvFile3482653.png"
+      },
+      { "url": "" }
+    ],
+    "adress": "Amahtesh 21, Dimona",
+    "price": 0,
+    "floor": 0,
+    "romms": 0,
+    "size": 0,
+    "properties": {
+      "elevator": true,
+      "parking": true,
+      "bars": true,
+      "storage": true,
+      "airConditioner": false,
+      "porch": true,
+      "renovated": true
+    },
+    "opinions": [
+      {
+        "user": {
+          "name": "",
+          "profileImage": { "url": "" }
+        },
+        "payed": 0,
+        "date": "",
+        "opinion": ""
+      }
+    ],
+    "ownerInfo": { "name": "", "number": "", "email": "" }
+  },
+  {
+    "image": [
+      {
+        "url": "data:image/jpeg;base64,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"
+      }
+    ],
+    "adress": "Agefen 19, Dimona",
+    "price": 5000,
+    "floor": 2,
+    "rooms": 4,
+    "size": 90,
+    "properties": {
+      "elevator": true,
+      "parking": false,
+      "bars": true,
+      "storage": true,
+      "airConditioner": true,
+      "porch": true,
+      "renovated": false
+    },
+    "opinions": [
+      {
+        "user": {
+          "name": "ruby",
+          "profileImage": {
+            "url": "efr"
+          }
+        },
+        "payed": 4000,
+        "date": "15.1.95",
+        "opinion": "this is my opinion"
+      }
+    ],
+    "ownerInfo": {
+      "name": "sagi",
+      "number": "0528889996",
+      "email": "sagi@gmail.com"
+    }
+  },
+  {
+    "image": [
+      {
+        "url": "data:image/jpeg;base64,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"
+      },
+      { "url": "" }
+    ],
+    "adress": "Dereh Bar Lev 6, Dimona",
+    "price": 0,
+    "floor": 0,
+    "romms": 0,
+    "size": 0,
+    "properties": {
+      "elevator": true,
+      "parking": false,
+      "bars": true,
+      "storage": true,
+      "airConditioner": true,
+      "porch": false,
+      "renovated": true
+    },
+    "opinions": [
+      {
+        "user": {
+          "name": "",
+          "profileImage": { "url": "" }
+        },
+        "payed": 0,
+        "date": "",
+        "opinion": ""
+      }
+    ],
+    "ownerInfo": { "name": "", "number": "", "email": "" }
+  },
+  {
+    "image": [
+      {
+        "url": "data:image/jpeg;base64,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"
+      },
+      { "url": "" }
+    ],
+    "adress": "Ahatzmaut 58, Dimona",
+    "price": 0,
+    "floor": 0,
+    "romms": 0,
+    "size": 0,
+    "properties": {
+      "elevator": true,
+      "parking": false,
+      "bars": false,
+      "storage": false,
+      "airConditioner": true,
+      "porch": true,
+      "renovated": false
+    },
+    "opinions": [
+      {
+        "user": {
+          "name": "",
+          "profileImage": { "url": "" }
+        },
+        "payed": 0,
+        "date": "",
+        "opinion": ""
+      }
+    ],
+    "ownerInfo": { "name": "", "number": "", "email": "" }
+  },
+  {
+    "image": [
+      {
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRylpZYrZ0ElvvP0dUrT73G3H-eLHhNORdQd5eiBQhFU3pMa1ft5ZjS0KnwQxlJ4zG8ZEs&usqp=CAU"
+      }
+    ],
+    "adress": "Arimon 49, Dimona",
     "price": 5000,
     "floor": 2,
     "rooms": 4,
@@ -47,20 +376,19 @@
   {
     "image": [
       {
-        "url": "https://www.aveliving.com/AVE/media/Property_Images/Malvern/hero/malv-apt-living-(1)-hero.jpg?ext=.jpg"
-      },
-      { "url": "" }
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgvDEG_1lUtdb7qiXuq98601Rnfyt-MMwbSq4UM8lNq9-8Nf8jU_i1y2uuemQbw0EisP0&usqp=CAU"
+      }
     ],
-    "adress": "ben gurion",
+    "adress": "Ateena 71, Dimona",
     "price": 0,
     "floor": 0,
     "romms": 0,
     "size": 0,
     "properties": {
-      "elevator": true,
+      "elevator": false,
       "parking": false,
       "bars": true,
-      "storage": true,
+      "storage": false,
       "airConditioner": true,
       "porch": false,
       "renovated": true
@@ -81,11 +409,13 @@
   {
     "image": [
       {
-        "url": "https://www.aveliving.com/AVE/media/Property_Images/Malvern/hero/malv-apt-living-(1)-hero.jpg?ext=.jpg"
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS72MQKb7sTPhQpJzQqOapBQCPJSzQkXX3P5MRBEQec--4f9DzrSQvb1GoG1JXfDWbYFOo&usqp=CAU"
       },
-      { "url": "" }
+      {
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC4hflqbznhCiicpNosLcVOaWRB71U2nhgSX-1rHMZ0I0Ci-JPS2UBo9wqiF_7oGXNqnc&usqp=CAU"
+      }
     ],
-    "adress": "ben gurion",
+    "adress": "aeshel 15, Dimona",
     "price": 0,
     "floor": 0,
     "romms": 0,
@@ -93,11 +423,11 @@
     "properties": {
       "elevator": true,
       "parking": true,
-      "bars": true,
+      "bars": false,
       "storage": true,
       "airConditioner": true,
-      "porch": true,
-      "renovated": true
+      "porch": false,
+      "renovated": false
     },
     "opinions": [
       {
