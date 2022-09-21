@@ -1,0 +1,115 @@
+[
+  {
+    "image": [
+      {
+        "url": "https://www.aveliving.com/AVE/media/Property_Images/Florham%20Park/hero/flor-apt-living-(2)-hero.jpg?ext=.jpg"
+      },
+      {
+        "url": "https://www.aveliving.com/AVE/media/Property_Images/Florham%20Park/hero/flor-apt-kitchen-(1)-hero.jpg?ext=.jpg"
+      },
+      {
+        "url": "https://www.aveliving.com/AVE/media/Property_Images/Malvern/hero/malv-apt-living-(1)-hero.jpg?ext=.jpg"
+      }
+    ],
+    "adress": "david ben gurion 44, dimona",
+    "price": 5000,
+    "floor": 2,
+    "rooms": 4,
+    "size": 90,
+    "properties": {
+      "elevator": true,
+      "parking": false,
+      "bars": true,
+      "storage": false,
+      "airConditioner": true,
+      "porch": true,
+      "renovated": true
+    },
+    "opinions": [
+      {
+        "user": {
+          "name": "ruby",
+          "profileImage": {
+            "url": "efr"
+          }
+        },
+        "payed": 4000,
+        "date": "15.1.95",
+        "opinion": "this is my opinion"
+      }
+    ],
+    "ownerInfo": {
+      "name": "sagi",
+      "number": "0528889996",
+      "email": "sagi@gmail.com"
+    }
+  },
+  {
+    "image": [
+      {
+        "url": "https://www.aveliving.com/AVE/media/Property_Images/Malvern/hero/malv-apt-living-(1)-hero.jpg?ext=.jpg"
+      },
+      { "url": "" }
+    ],
+    "adress": "ben gurion",
+    "price": 0,
+    "floor": 0,
+    "romms": 0,
+    "size": 0,
+    "properties": {
+      "elevator": true,
+      "parking": false,
+      "bars": true,
+      "storage": true,
+      "airConditioner": true,
+      "porch": false,
+      "renovated": true
+    },
+    "opinions": [
+      {
+        "user": {
+          "name": "",
+          "profileImage": { "url": "" }
+        },
+        "payed": 0,
+        "date": "",
+        "opinion": ""
+      }
+    ],
+    "ownerInfo": { "name": "", "number": "", "email": "" }
+  },
+  {
+    "image": [
+      {
+        "url": "https://www.aveliving.com/AVE/media/Property_Images/Malvern/hero/malv-apt-living-(1)-hero.jpg?ext=.jpg"
+      },
+      { "url": "" }
+    ],
+    "adress": "ben gurion",
+    "price": 0,
+    "floor": 0,
+    "romms": 0,
+    "size": 0,
+    "properties": {
+      "elevator": true,
+      "parking": true,
+      "bars": true,
+      "storage": true,
+      "airConditioner": true,
+      "porch": true,
+      "renovated": true
+    },
+    "opinions": [
+      {
+        "user": {
+          "name": "",
+          "profileImage": { "url": "" }
+        },
+        "payed": 0,
+        "date": "",
+        "opinion": ""
+      }
+    ],
+    "ownerInfo": { "name": "", "number": "", "email": "" }
+  }
+]
