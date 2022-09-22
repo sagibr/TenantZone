@@ -55,7 +55,7 @@
       }
     ],
     "adress": "Sderot Idal Alon 35, Dimona",
-    "price": 2700000,
+    "price": 2700,
     "floor": 2,
     "romms": 6,
     "size": 120,
@@ -89,10 +89,10 @@
       { "url": "" }
     ],
     "adress": "Sderot Ertzel 12, Dimona",
-    "price": 0,
-    "floor": 0,
-    "romms": 0,
-    "size": 0,
+    "price": 4800,
+    "floor": 5,
+    "romms": 4,
+    "size": 70,
     "properties": {
       "elevator": true,
       "parking": true,
@@ -125,10 +125,10 @@
       }
     ],
     "adress": "Sderot Golda meir 3, Dimona",
-    "price": 5000,
+    "price": 4000,
     "floor": 2,
-    "rooms": 4,
-    "size": 90,
+    "rooms": 5,
+    "size": 80,
     "properties": {
       "elevator": true,
       "parking": true,
@@ -146,7 +146,7 @@
             "url": "efr"
           }
         },
-        "payed": 4000,
+        "payed": 3500,
         "date": "15.1.95",
         "opinion": "this is my opinion"
       }
@@ -167,10 +167,10 @@
       }
     ],
     "adress": "Dereh David Ben Gurion 9, Dimona",
-    "price": 0,
-    "floor": 0,
-    "romms": 0,
-    "size": 0,
+    "price": 5400,
+    "floor": 1,
+    "romms": 5,
+    "size": 100,
     "properties": {
       "elevator": true,
       "parking": false,
@@ -186,7 +186,7 @@
           "name": "",
           "profileImage": { "url": "" }
         },
-        "payed": 0,
+        "payed": 3900,
         "date": "",
         "opinion": ""
       }
@@ -201,10 +201,10 @@
       { "url": "" }
     ],
     "adress": "Amahtesh 21, Dimona",
-    "price": 0,
-    "floor": 0,
-    "romms": 0,
-    "size": 0,
+    "price": 5000,
+    "floor": 3,
+    "romms": 4,
+    "size": 110,
     "properties": {
       "elevator": true,
       "parking": true,
@@ -220,7 +220,7 @@
           "name": "",
           "profileImage": { "url": "" }
         },
-        "payed": 0,
+        "payed": 5000,
         "date": "",
         "opinion": ""
       }
@@ -234,10 +234,10 @@
       }
     ],
     "adress": "Agefen 19, Dimona",
-    "price": 5000,
-    "floor": 2,
-    "rooms": 4,
-    "size": 90,
+    "price": 6100,
+    "floor": 4,
+    "rooms": 6,
+    "size": 120,
     "properties": {
       "elevator": true,
       "parking": false,
@@ -255,7 +255,7 @@
             "url": "efr"
           }
         },
-        "payed": 4000,
+        "payed": 5000,
         "date": "15.1.95",
         "opinion": "this is my opinion"
       }
@@ -274,10 +274,10 @@
       { "url": "" }
     ],
     "adress": "Dereh Bar Lev 6, Dimona",
-    "price": 0,
-    "floor": 0,
-    "romms": 0,
-    "size": 0,
+    "price": 4800,
+    "floor": 2,
+    "romms": 5,
+    "size": 105,
     "properties": {
       "elevator": true,
       "parking": false,
@@ -293,7 +293,7 @@
           "name": "",
           "profileImage": { "url": "" }
         },
-        "payed": 0,
+        "payed": 4600,
         "date": "",
         "opinion": ""
       }
@@ -308,10 +308,10 @@
       { "url": "" }
     ],
     "adress": "Ahatzmaut 58, Dimona",
-    "price": 0,
-    "floor": 0,
-    "romms": 0,
-    "size": 0,
+    "price": 5100,
+    "floor": 2,
+    "romms": 4,
+    "size": 85,
     "properties": {
       "elevator": true,
       "parking": false,
@@ -341,10 +341,10 @@
       }
     ],
     "adress": "Arimon 49, Dimona",
-    "price": 5000,
+    "price": 6000,
     "floor": 2,
-    "rooms": 4,
-    "size": 90,
+    "rooms": 5,
+    "size": 110,
     "properties": {
       "elevator": true,
       "parking": false,
@@ -362,7 +362,7 @@
             "url": "efr"
           }
         },
-        "payed": 4000,
+        "payed": 5800,
         "date": "15.1.95",
         "opinion": "this is my opinion"
       }
@@ -380,10 +380,10 @@
       }
     ],
     "adress": "Ateena 71, Dimona",
-    "price": 0,
-    "floor": 0,
-    "romms": 0,
-    "size": 0,
+    "price": 6700,
+    "floor": 1,
+    "romms": 5,
+    "size": 100,
     "properties": {
       "elevator": false,
       "parking": false,
@@ -399,7 +399,7 @@
           "name": "",
           "profileImage": { "url": "" }
         },
-        "payed": 0,
+        "payed": 6000,
         "date": "",
         "opinion": ""
       }
@@ -416,10 +416,10 @@
       }
     ],
     "adress": "aeshel 15, Dimona",
-    "price": 0,
-    "floor": 0,
-    "romms": 0,
-    "size": 0,
+    "price": 4500,
+    "floor": 6,
+    "romms": 4,
+    "size": 80,
     "properties": {
       "elevator": true,
       "parking": true,
@@ -435,7 +435,7 @@
           "name": "",
           "profileImage": { "url": "" }
         },
-        "payed": 0,
+        "payed": 4200,
         "date": "",
         "opinion": ""
       }

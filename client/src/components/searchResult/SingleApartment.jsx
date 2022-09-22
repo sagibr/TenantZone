@@ -1,4 +1,4 @@
-import "../apartmentProfile/apartment.css"
+import "../apartmentProfile/apartment.css";
 const SingleApartment = (props) => {
   return (
     <div key={props.index} className="group relative">
@@ -12,17 +12,17 @@ const SingleApartment = (props) => {
       <div className="mt-4 flex justify-between">
         <div>
           <h3 className="text-sm text-gray-700">
-            <a href={props.href}>
+            <a href={props.href} className="adress">
               <span aria-hidden="true" className="absolute inset-0" />
               {props.adress}
             </a>
           </h3>
           <p className="mt-1 text-sm text-gray-500"></p>
         </div>
-        <p className="text-sm font-medium text-gray-900">{props.price}</p>
+        <p className="text-sm font-medium text-gray-900">{props.price}$</p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default SingleApartment
+export default SingleApartment;

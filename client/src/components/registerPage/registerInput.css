@@ -1,0 +1,15 @@
+.register {
+  margin-bottom: 5%;
+}
+.divInputsRegister {
+  width: 60%;
+  margin-left: 3%;
+}
+.imgRegister {
+  height: 80%;
+  margin-top: 53%;
+}
+.allRegister {
+  display: flex;
+  justify-content: center;
+}
