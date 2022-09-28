@@ -1,13 +1,16 @@
 const express = require("express")
+const cors = require("cors")
 const app = express()
 const port = 3001
+
+const userRoutes = require("./routes/userRoutes")
 
 const apartmentRoutes = require("./routes/apartmentsRoutes")
 const { default: mongoose } = require("mongoose")
 const bodyParser = require("body-parser")
 
+app.use(cors())
 require("dotenv").config()
-
 mongoose.Promise = global.Promise
 mongoose
   .connect(process.env.DB, { useNewUrlParser: true })
@@ -25,6 +28,8 @@ app.use((req, res, next) => {
 app.use(bodyParser.json())
 
 app.use("/", apartmentRoutes)
+
+app.use("/", userRoutes)
 
 app.use((req, err, next) => {
   console.log(err)

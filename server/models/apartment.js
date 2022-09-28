@@ -5,7 +5,6 @@ const ApartmentSchema = mongoose.Schema({
     {
       url: {
         type: Array,
-        required: true,
       },
     },
   ],
