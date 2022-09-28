@@ -1,12 +1,14 @@
 import { Popover, Transition } from "@headlessui/react"
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"
 import { Fragment } from "react"
+import { useSelector } from "react-redux"
 import homeImage from "./img/home.jpg"
 import logo from "./img/tenantsZone.png"
 import SearchBar from "./SearchBar"
 
 const HomeHeader = () => {
   const navigation = [{ name: "Tenant Zone", href: "/" }]
+  const user = useSelector((state) => state.loggedUser)
   return (
     <div>
       <div className="relative overflow-hidden bg-white">
@@ -56,12 +58,25 @@ const HomeHeader = () => {
                         {item.name}
                       </a>
                     ))}
-                    <a
-                      href="/"
-                      className="font-medium text-indigo-600 hover:text-indigo-500"
-                    >
-                      Log in
-                    </a>
+                    {console.log(user)}
+                    {user.email !== "" ? (
+                      <>
+                        <a
+                          href="/login"
+                          className="font-medium text-indigo-600 hover:text-indigo-500"
+                        >
+                          Log in
+                        </a>
+                        <a
+                          href="/register"
+                          className="font-medium text-indigo-600 hover:text-indigo-500"
+                        >
+                          Register
+                        </a>
+                      </>
+                    ) : (
+                      <h1>{user.firstName}</h1>
+                    )}
                   </div>
                 </nav>
               </div>
