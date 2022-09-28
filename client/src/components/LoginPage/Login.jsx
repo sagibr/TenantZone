@@ -35,9 +35,6 @@ export default function Login() {
     }
   }
 
-  console.log(user)
-  console.log(emailValue + " " + passwordValue)
-
   return (
     <div className="AllLogin">
       {/* <div className="overlay"></div> */}

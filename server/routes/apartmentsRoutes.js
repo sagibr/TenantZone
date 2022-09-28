@@ -23,6 +23,18 @@ router.get("/apartments/:id", (req, res, next) => {
     .then((data) => res.json(data))
     .catch(next)
 })
+router.patch("/apartments/:id", (req, res, next) => {
+  Apartments.findByIdAndUpdate(req.params.id, req.body, { new: true })
+    .then((Apartments) => {
+      if (!Apartments) {
+        return res.status(404).send()
+      }
+      res.send(Apartments)
+    })
+    .catch((error) => {
+      res.status(500).send(error)
+    })
+})
 // router.get("/apartments/:id", (req, res, next) => {
 
 // Apartments.find({ _id: req.params["id?"] })

@@ -58,7 +58,6 @@ const HomeHeader = () => {
                         {item.name}
                       </a>
                     ))}
-                    {console.log(user)}
                     {user.email !== "" ? (
                       <>
                         <a

@@ -3,8 +3,14 @@ import { Link } from "react-router-dom"
 import { update } from "../../reducers/selectedIdSlice"
 import "../apartmentProfile/apartment.css"
 const SingleApartment = (props) => {
+  const dispatch = useDispatch()
   return (
-    <Link to={`/apartments/${props.id}`}>
+    <Link
+      to={`/apartments/${props.id}`}
+      onClick={() => {
+        dispatch(update(props.id))
+      }}
+    >
       <div key={props.index} className="group relative">
         <div className="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
           <img

@@ -14,7 +14,7 @@ const Apartment = (props) => {
   const [data, setData] = useState([])
   const [isLoading, setIsLoading] = useState(true)
   const dispatch = useDispatch()
-  const id = window.location.href.slice(33)
+  const id = useSelector((state) => state.selectedId.value)
   useEffect(() => {
     getData()
     setIsLoading(false)
@@ -24,7 +24,21 @@ const Apartment = (props) => {
       .get(`http://localhost:3001/apartments/${id}`)
       .then((res) => res.data && setData(res.data))
   }
-  console.log(data)
+  const postOpinion = (payed, opinion) => {
+    axios
+      .patch(`http://localhost:3001/apartments/${id}`, {
+        // ...data,
+        opinions: [
+          ...data[0].opinions,
+          {
+            user: { name: "aaa", profileImage: { url: "asa" } },
+            payed: payed,
+            opinion: opinion,
+          },
+        ],
+      })
+      .then((res) => res.data && getData())
+  }
   // const images = data[0].image
   // const opinions = data[0].opinions
 
@@ -208,6 +222,14 @@ const Apartment = (props) => {
             </div>
           </div>
           <OpinionCarusal opinions={data[0]?.opinions}></OpinionCarusal>
+          <div>
+            <button
+              onClick={() => postOpinion()}
+              className="w-1/3 h-1/2 my-2  bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+            >
+              Post Opinion
+            </button>
+          </div>
         </div>
         <div className="basis-2/5 mx-3">
           <SimpleMap></SimpleMap>
