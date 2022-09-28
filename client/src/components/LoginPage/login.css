@@ -1,0 +1,44 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.logo {
+  max-width: 60% !important;
+  height: 60% !important;
+}
+.titleSignIn {
+  margin-bottom: 15% !important;
+  margin-top: 0% !important;
+}
+.AllLogin {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.videoUrl {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100vh;
+}
+.Login {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}

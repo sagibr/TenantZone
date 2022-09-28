@@ -108,7 +108,9 @@ const SearchBar = () => {
           input.slice(input.indexOf(number) + number.length, input.length)
       }
       if (input !== "") {
-        query += `&adress=${input}`
+        query === ""
+          ? (query += `?adress=${input}`)
+          : (query += `&adress=${input}`)
       }
     }
     query = query.replace(/\s/g, "")
