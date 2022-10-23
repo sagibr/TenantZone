@@ -33,13 +33,16 @@ TenantZone is a social platform for tenants and renters to get real feedbacks ab
 
 ## Screenshots
 
-Home Page:
+# Home Page:
+
 ![tenent1](https://user-images.githubusercontent.com/110329485/197391571-38173d65-4756-45a9-b42c-c6a198bf6de8.jpeg)
 
-Search results:
+# Search results:
+
 ![tenent2](https://user-images.githubusercontent.com/110329485/197391601-b0587b19-9393-4831-85f4-dfad838d5151.jpeg)
 
-Apartment profile:
+# Apartment profile:
+
 ![tenent3](https://user-images.githubusercontent.com/110329485/197391613-720bf05a-57f4-481f-bd89-f98e021505a6.jpeg)
 
 
