@@ -1,5 +1,5 @@
 # TenantZone
-
+The project was built as a part of a Hackaton in which we had 24 hours to deliver a finished full-stack project we a back-end and front-end.
 TenantZone is a social platform for tenants and renters to get real feedbacks about the property and the renter that they wish to buy from.
 
 ## Table Of Contents
@@ -36,48 +36,31 @@ TenantZone is a social platform for tenants and renters to get real feedbacks ab
 Home Page:
 ![tenent1](https://user-images.githubusercontent.com/110329485/197391571-38173d65-4756-45a9-b42c-c6a198bf6de8.jpeg)
 
-after search:
+Search results:
 ![tenent2](https://user-images.githubusercontent.com/110329485/197391601-b0587b19-9393-4831-85f4-dfad838d5151.jpeg)
 
-when i choose an epartment:
+Apartment profile:
 ![tenent3](https://user-images.githubusercontent.com/110329485/197391613-720bf05a-57f4-481f-bd89-f98e021505a6.jpeg)
 
-
-### Goolo Swiper
-
-An interactive swiper, you like it, you swipe it.
-leave the rest to us :)
-
-<p align="center"><img src="./ImgsForReadMe/Swiper-screenshot.png" width="300" /></p>
-
-### Goolo Recommendations
-
-Clothes recommended specificialy for you,
-picked using our amazing algorithm!
-
-<p align="center"><img src="./ImgsForReadMe/Reccomendations-screenshot.png" width="300" /></p>
 
 ## Technologies:
 
 ### Client-side:
 
 - React.JS
-- Mobx
-- Sequelize
+- Redux
+- Tailwind
 
 ### Server-side:
 
 - Node.JS
 - Express
-- SQL
+- MongoDB
 
 ## What's next:
 
-1. improve swiper page by sending new clothes every 30 swipes.
-2. Improve algorithm for recommendations
-3. add more parameters for recommendation.
-4. Adding affiliation to the app (because why not :))
-5. Buy clothes the way its meant to be.
+1. improved user authentication
+2. improved map focus
 
 ## Be a contribute:
 
