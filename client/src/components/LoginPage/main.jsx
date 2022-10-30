@@ -1,6 +1,6 @@
-import React from "react";
-import "./main.css";
-import videoBg from "./../LoginPage/video.mp4";
+import React from "react"
+import videoBg from "./../LoginPage/video.mp4"
+import "./main.css"
 export default function Main() {
   return (
     <div className="main">
@@ -11,5 +11,5 @@ export default function Main() {
         <p>To my site.</p>
       </div>
     </div>
-  );
+  )
 }

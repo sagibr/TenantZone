@@ -1,7 +1,6 @@
-import { LockClosedIcon } from "@heroicons/react/20/solid"
 import axios from "axios"
 import { useState } from "react"
-import { useDispatch, useSelector } from "react-redux"
+import { useDispatch } from "react-redux"
 import { Link } from "react-router-dom"
 import { update } from "../../reducers/loggedUserSlice"
 import videoBg from "./../LoginPage/video.mp4"
@@ -10,7 +9,6 @@ import "./login.css"
 export default function Login() {
   const [passwordValue, setPasswordValue] = useState("")
   const [emailValue, setEmailValue] = useState("")
-  const user = useSelector((state) => state.loggedUser)
   const [allUsers, setAllUsers] = useState([])
   const dispatch = useDispatch()
   const handleSubmit = () => {
