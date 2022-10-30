@@ -15,7 +15,7 @@ export default function PostOpinionModal(props) {
 
   const postOpinion = (payed, opinion) => {
     axios
-      .patch(`http://localhost:3001/apartments/${id}`, {
+      .patch(`https://tenant-zone.herokuapp.com/${id}`, {
         // ...data,
         opinions: [
           ...props.data[0].opinions,

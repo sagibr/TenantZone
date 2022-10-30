@@ -115,7 +115,7 @@ const RegisterInputs = () => {
                   password: values.password,
                 }
                 axios
-                  .post("http://localhost:3001/users", user)
+                  .post("https://tenant-zone.herokuapp.com/users", user)
                   .then((response) => console.log(response))
                   .catch((err) => console.log(err))
               }}
