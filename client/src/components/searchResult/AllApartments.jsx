@@ -10,9 +10,11 @@ function AllApartments() {
   const [Data, setData] = useState([])
   const query = useSelector((state) => state.searchResult.value)
   const getData = async () => {
-    await axios.get(`http://localhost:3001/apartments/${query}`).then((res) => {
-      res.data && setData(res.data)
-    })
+    await axios
+      .get(`https://tenant-zone.herokuapp.com/apartments/${query}`)
+      .then((res) => {
+        res.data && setData(res.data)
+      })
     setIsLoading(false)
   }
   useEffect(() => {

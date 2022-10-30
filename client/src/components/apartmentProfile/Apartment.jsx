@@ -20,7 +20,7 @@ const Apartment = (props) => {
   }, [])
   const getData = () => {
     axios
-      .get(`http://localhost:3001/apartments/${id}`)
+      .get(`https://tenant-zone.herokuapp.com/${id}`)
       .then((res) => res.data && setData(res.data))
   }
 

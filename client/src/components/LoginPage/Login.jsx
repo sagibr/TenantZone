@@ -13,7 +13,7 @@ export default function Login() {
   const dispatch = useDispatch()
   const handleSubmit = () => {
     axios
-      .get(`http://localhost:3001/users`)
+      .get(`https://tenant-zone.herokuapp.com/users`)
       .then((response) => setAllUsers(response.data))
       .catch((err) => console.log(err))
     console.log(allUsers)
