@@ -21,13 +21,13 @@ const SingleApartment = (props) => {
         </div>
         <div className="mt-4 flex justify-between">
           <div>
-            <h3 className="text-sm text-gray-700">
+            <h3 className="text-gray-700 text-lg font-bold">
               <span aria-hidden="true" className="absolute inset-0" />
               {props.adress}
             </h3>
             <p className="mt-1 text-sm text-gray-500"></p>
           </div>
-          <p className="text-sm font-medium text-gray-900">{props.price}</p>
+          <p className="text-lg font-bold text-gray-700">{props.price}$</p>
         </div>
       </div>
     </Link>

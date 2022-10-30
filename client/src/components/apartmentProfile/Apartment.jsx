@@ -2,43 +2,28 @@ import axios from "axios"
 import { useEffect, useState } from "react"
 import { BsBuilding, BsDoorClosed } from "react-icons/bs"
 import { IoResize } from "react-icons/io5"
-import { useDispatch, useSelector } from "react-redux"
-import { update } from "../../reducers/selectedIdSlice"
+import { useSelector } from "react-redux"
 import "./apartment.css"
 import ImageCarusal from "./ImagesCarusal"
 import OpinionCarusal from "./OpinionsCarusal"
+import PostOpinionModal from "./PostOpinionModal"
 import SimpleMap from "./SimpleMap"
-import Test from "./Test"
 
 const Apartment = (props) => {
   const [data, setData] = useState([])
   const [isLoading, setIsLoading] = useState(true)
-  const dispatch = useDispatch()
   const id = useSelector((state) => state.selectedId.value)
   useEffect(() => {
     getData()
     setIsLoading(false)
+    // eslint-disable-next-line
   }, [])
   const getData = () => {
     axios
       .get(`http://localhost:3001/apartments/${id}`)
       .then((res) => res.data && setData(res.data))
   }
-  const postOpinion = (payed, opinion) => {
-    axios
-      .patch(`http://localhost:3001/apartments/${id}`, {
-        // ...data,
-        opinions: [
-          ...data[0].opinions,
-          {
-            user: { name: "aaa", profileImage: { url: "asa" } },
-            payed: payed,
-            opinion: opinion,
-          },
-        ],
-      })
-      .then((res) => res.data && getData())
-  }
+
   // const images = data[0].image
   // const opinions = data[0].opinions
 
@@ -213,7 +198,6 @@ const Apartment = (props) => {
             <div className="h-2/3 flex">
               <input
                 className="w-1/2 h-1/2 m-auto block p-4  text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:text-md focus:ring-blue-500 focus:border-blue-500"
-                disabled
                 placeholder="your phone number..."
               ></input>
               <button className="w-1/3 h-1/2 m-auto bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
@@ -223,12 +207,7 @@ const Apartment = (props) => {
           </div>
           <OpinionCarusal opinions={data[0]?.opinions}></OpinionCarusal>
           <div>
-            <button
-              onClick={() => postOpinion()}
-              className="w-1/3 h-1/2 my-2  bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
-            >
-              Post Opinion
-            </button>
+            <PostOpinionModal data={data} getData={getData}></PostOpinionModal>
           </div>
         </div>
         <div className="basis-2/5 mx-3">

@@ -298,6 +298,7 @@ const RegisterInputs = () => {
           <img
             className="imgRegister"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeynT5WtQQd9ReVJXpxexQfrKwuma7H7svIQ&usqp=CAU"
+            alt="asdas"
           ></img>
         </div>
       </div>

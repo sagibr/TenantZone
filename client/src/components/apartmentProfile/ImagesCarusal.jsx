@@ -24,7 +24,7 @@ export default function ImagesCarusal(props) {
                 <img
                   className="object-fill w-full h-96 rounded-3xl my-7"
                   src={image.url}
-                  alt={`image slide ${index + 1}`}
+                  alt={`slide ${index + 1}`}
                 />
               </SwiperSlide>
             )
